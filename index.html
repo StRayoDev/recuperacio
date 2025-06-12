@@ -8,7 +8,7 @@
 </head>
 <body>
   <header>
-    <h1>Llista de videojocs preferits ðŸŽ®</h1>
+    <h1>Llista de videojocs preferits í¾®</h1>
     <p><strong>Alumne:</strong> Aleix Lemos PÃ©rez</p>
     <p><strong>MÃ²dul:</strong> MP0483 â€“ Sistemes informÃ tics</p>
     <p><strong>Data:</strong> 12-06-2025</p>
@@ -17,10 +17,20 @@
   <main>
     <section class="llista-videojocs">
       <h2>Videojocs</h2>
+
+      <!-- í´½ Canvi afegit -->
+      <label for="filtre">Filtra per tipus:</label>
+      <select id="filtre" onchange="filtrarJocs()">
+        <option value="tots">Tots</option>
+        <option value="retro">Retro</option>
+      </select>
+
       <ul id="jocs">
         <li>The Legend of Zelda: Breath of the Wild</li>
-        <li>Hollow Knight</li>
+        <li>Super Mario Bros (retro)</li>
         <li>Red Dead Redemption 2</li>
+        <li>Street Fighter II (retro)</li>
+        <li>Hollow Knight</li>
       </ul>
 
       <input type="text" id="nouJoc" placeholder="Afegeix un videojoc">

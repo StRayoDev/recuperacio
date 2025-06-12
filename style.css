@@ -29,6 +29,19 @@ ul {
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
+/* í¾¨ Nou estil per select */
+select {
+  padding: 0.4em;
+  margin-bottom: 1em;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+}
+
+/* í¾¨ Nova classe per ocultar jocs filtrats */
+.ocult {
+  display: none;
+}
+
 input[type="text"] {
   padding: 0.5em;
   margin-top: 1em;
